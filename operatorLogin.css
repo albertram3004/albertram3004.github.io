@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #fff, #15E8EB);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.table  {
+  height: 50vh;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Driven Prpgramming</title>
+  <link rel="stylesheet" href="./eventDriveProgramming.css" />
+  <script src="./dataLoader.js"></script>
+  <script src="./eventDriveProgramming.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <img src="./spaceLogo.jpg" alt="">
+    <h2 class="white">UAT Space Program</h2>
+  </div>
+  <a href="../index.html">Home Page</a>
+  <br/>
+  <br/>
+  <div id="table">
+    <table>
+      <thead>
+        <th>Time Elapse</th>
+        <th>Latitud</th>
+        <th>Logitud</th>
+        <th>GPS Altitud</th>
+        <th>BMP Sensor Altitud</th>
+        <th>BMP Sensor Pressure</th>
+        <th>BMP Sensor Temperature</th>
+        <th>Digital Sensor Temperature</th>
+        <th>CSS Sensor Temperature</th>
+        <th>CSS Sensor eCO2</th>
+        <th>CSS Sensor TVOC</th>
+        <th>UV</th>
+        <th>Aeeel X</th>
+        <th>Aeeel Y</th>
+        <th>Aeeel Z</th>
+        <th>Magnitude Z</th>
+        <th>Magnitude Z</th>
+        <th>Magnitude Z</th>
+        <th>Gyre Z</th>
+        <th>Gyre Z</th>
+        <th>Gyre Z</th>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+  <button class="button" type="button" onclick="startTable()" id="startButton">Start</button>
+</body>
+
+</html>
